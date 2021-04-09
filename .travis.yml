@@ -11,10 +11,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "tarabet-react-docker"
-  env: "TarabetReactDocker-env"
+  app: "simple-react-app"
+  env: "Simplereactapp-env"
   bucket_name: "elasticbeanstalk-us-east-1-711190079749"
-  bucket_path: "tarabet-react-docker"
+  bucket_path: "simple-react-app"
 
   on:
     branch: master
